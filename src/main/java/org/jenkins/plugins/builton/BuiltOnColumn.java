@@ -14,7 +14,7 @@ public class BuiltOnColumn extends ListViewColumn{
     public static class DescriptorImpl extends Descriptor<ListViewColumn> {
         @Override
         public String getDisplayName() {
-            return "Built On";
+            return Messages.BuiltOnColumn_DisplayName();
         }
     }
 }
