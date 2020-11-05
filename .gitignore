@@ -1,3 +1,9 @@
 target
 DS_Store
 work
+
+# IDE files and directories
+.classpath
+.factorypath
+.project
+.settings/
