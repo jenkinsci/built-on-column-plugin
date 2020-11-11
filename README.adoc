@@ -7,3 +7,7 @@ link:https://plugins.jenkins.io/built-on-column/[image:https://img.shields.io/je
 link:https://plugins.jenkins.io/built-on-column/[image:https://img.shields.io/jenkins/plugin/v/built-on-column.svg[Plugin]]
 
 Adds a column that shows the actual node the last build was run on.
+
+== Screenshots
+
+image:docs/images/built-on-column-plugin.png[]
