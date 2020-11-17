@@ -8,7 +8,7 @@
 - Create CHANGELOG.md
 - Add VSCode IDE files to .gitignore
 - Add pom.xml property java.level: 8
-- Add pom.xml property jenkins.version: 2.249.1
+- Add pom.xml property jenkins.version: 2.190.1
 - Fix src/main/resources/index.jelly
 
 ## v1.1
