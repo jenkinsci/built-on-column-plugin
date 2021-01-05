@@ -1,43 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>org.jenkins-ci.plugins</groupId>
-    <artifactId>plugin</artifactId>
-    <version>1.399</version><!-- which version of Jenkins is this plugin built against? -->
-  </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.jenkins-ci.plugins</groupId>
+        <artifactId>plugin</artifactId>
+        <version>3.4</version>
+        <relativePath />
+    </parent>
+    <groupId>io.jenkins.plugins</groupId>
+    <artifactId>built-on-column</artifactId>
+    <version>1.2-SNAPSHOT</version>
+    <packaging>hpi</packaging>
+    <properties>
+        <jenkins.version>2.7.3</jenkins.version>
+        <java.level>8</java.level>
+    </properties>
+    <name>Built On Plugin</name>
+    <description>Shows the actual node that a job was built on.</description>
+    <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
+    <scm>
+        <connection>scm:git:git://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}-plugin.git</developerConnection>
+        <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
+    </scm>
+    <repositories>
+        <repository>
+            <id>repo.jenkins-ci.org</id>
+            <url>https://repo.jenkins-ci.org/public/</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>repo.jenkins-ci.org</id>
+            <url>https://repo.jenkins-ci.org/public/</url>
+        </pluginRepository>
+    </pluginRepositories>
 
-  <groupId>org.jenkins-ci.plugins</groupId>
-  <artifactId>built-on-column</artifactId>
-  <version>1.2</version>
-  <packaging>hpi</packaging>
-
-  <!-- get every artifact through maven.glassfish.org, which proxies all the artifacts that we need -->
-  <repositories>
-    <repository>
-      <id>repo.jenkins-ci.org</id>
-      <url>http://repo.jenkins-ci.org/public/</url>
-    </repository>
-  </repositories>
-
-  <pluginRepositories>
-    <pluginRepository>
-      <id>repo.jenkins-ci.org</id>
-      <url>http://repo.jenkins-ci.org/public/</url>
-    </pluginRepository>
-  </pluginRepositories>
-
-  <scm>
-    <connection>scm:git:ssh://github.com/jenkinsci/.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/jenkinsci/builton-column-plugin.git</developerConnection>
-    <url>https://github.com/jenkinsci/builton-column-plugin</url>
-  </scm>
-
-  <url>http://wiki.jenkins-ci.org/display/JENKINS/Built-on+Column</url>
-  <developers>
-    <developer>
-      <id>voorth</id>
-      <name>Henk van Voorthuijsen</name>
-      <email>voorth@xs4all.nl</email>
-    </developer>
-  </developers>
-</project>  
+    <developers>
+        <developer>
+            <id>voorth</id>
+            <name>Henk van Voorthuijsen</name>
+            <email>voorth@xs4all.nl</email>
+        </developer>
+    </developers>
+</project>
