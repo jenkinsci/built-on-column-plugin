@@ -1,6 +1,5 @@
 ## Built On Plugin
-[![Jenkins Plugin](https://img.shields.io/jenkins/plugin/v/localization-zh-cn.svg)](https://plugins.jenkins.io/localization-zh-cn)
-[![Jenkins Plugin Installs](https://img.shields.io/jenkins/plugin/i/built-on-column.svg?color=blue)](https://plugins.jenkins.io/built-on-column)
-[![Gitter](https://badges.gitter.im/jenkinsci/built-on-column.svg)](https://gitter.im/jenkinsci/built-on-column)
+[![Build Status](https://ci.jenkins.io/buildStatus/icon?job=Plugins%2Fbuilt-on-column-plugin%2Fmaster)](https://ci.jenkins.io/job/Plugins/job/built-on-column-plugin/job/master/)
+[![Contributors](https://img.shields.io/github/contributors/jenkinsci/built-on-column-plugin.svg)](https://github.com/jenkinsci/built-on-column-plugin/graphs/contributors)
 
 Shows the actual node that a job was built on
