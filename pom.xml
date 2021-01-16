@@ -7,7 +7,7 @@
         <version>3.4</version>
         <relativePath />
     </parent>
-    <groupId>org.jenkins-ci.plugins</groupId>
+    <groupId>io.jenkins.plugins</groupId>
     <artifactId>built-on-column</artifactId>
     <version>1.2</version>
     <packaging>hpi</packaging>
@@ -15,6 +15,7 @@
         <jenkins.version>2.7.3</jenkins.version>
         <java.level>8</java.level>
     </properties>
+    
     <name>Built On Plugin</name>
     <description>Shows the actual node that a job was built on.</description>
     <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
