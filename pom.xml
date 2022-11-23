@@ -3,29 +3,32 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>1.399</version><!-- which version of Jenkins is this plugin built against? -->
+    <version>4.12</version>
   </parent>
 
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>built-on-column</artifactId>
   <version>1.2-SNAPSHOT</version>
-  <packaging>hpi</packaging>
 
-  <!-- get every artifact through maven.glassfish.org, which proxies all the artifacts that we need -->
   <repositories>
     <repository>
       <id>repo.jenkins-ci.org</id>
-      <url>http://repo.jenkins-ci.org/public/</url>
+      <url>https://repo.jenkins-ci.org/public/</url>
     </repository>
   </repositories>
 
   <pluginRepositories>
     <pluginRepository>
       <id>repo.jenkins-ci.org</id>
-      <url>http://repo.jenkins-ci.org/public/</url>
+      <url>https://repo.jenkins-ci.org/public/</url>
     </pluginRepository>
   </pluginRepositories>
-
+  <packaging>hpi</packaging>
+  
+  <properties>
+    <jenkins.version>2.249.3</jenkins.version>
+    <java.level>8</java.level>
+  </properties>
   <scm>
     <connection>scm:git:ssh://github.com/jenkinsci/.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/jenkinsci/builton-column-plugin.git</developerConnection>
