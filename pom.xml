@@ -25,7 +25,7 @@
     </pluginRepository>
   </pluginRepositories>
   <packaging>hpi</packaging>
-  
+
   <properties>
     <jenkins.version>2.346.3</jenkins.version>
   </properties>
@@ -43,4 +43,4 @@
       <email>voorth@xs4all.nl</email>
     </developer>
   </developers>
-</project>  
+</project>
