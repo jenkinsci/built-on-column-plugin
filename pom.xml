@@ -36,7 +36,7 @@
     <tag>HEAD</tag>
   </scm>
 
-  <url>http://wiki.jenkins-ci.org/display/JENKINS/Built-on+Column</url>
+  <url>https://github.com/jenkinsci/built-on-column-plugin</url>
   <developers>
     <developer>
       <id>voorth</id>
