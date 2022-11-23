@@ -11,10 +11,6 @@
   <artifactId>built-on-column</artifactId>
   <version>1.2-SNAPSHOT</version>
 
-  <properties>
-    <jenkins.version>2.346.3</jenkins.version>
-  </properties>
-
   <repositories>
     <repository>
       <id>repo.jenkins-ci.org</id>
@@ -31,8 +27,7 @@
   <packaging>hpi</packaging>
   
   <properties>
-    <jenkins.version>2.249.3</jenkins.version>
-    <java.level>8</java.level>
+    <jenkins.version>2.346.3</jenkins.version>
   </properties>
   <scm>
     <connection>scm:git:ssh://github.com/jenkinsci/.git</connection>
