@@ -1,6 +1,8 @@
 # Built On Column Plugin
 
-Adds a column that shows the actual node the last build was run on.
+This plugin Adds a column on the jenkins dashboard that shows the actual node the last build was run on.
+
+![](images/Built-On.png)
 
 ## Version history
 
