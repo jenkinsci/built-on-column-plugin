@@ -23,5 +23,5 @@ THE SOFTWARE.
 -->
 <?jelly escape-by-default='true'?>
 <j:jelly xmlns:j="jelly:core">
-  <td><a href="/${job.lastBuild.builtOn.searchUrl}" class="model-link">${job.lastBuild.builtOn.displayName}</a></td>
+  <td><a href="${job.lastBuild.builtOn.searchUrl}" class="model-link">${job.lastBuild.builtOn.displayName}</a></td>
 </j:jelly>
