@@ -31,8 +31,8 @@
   <properties>
     <revision>1.5</revision>
     <changelist>-SNAPSHOT</changelist>
-    <jenkins.baseline>2.440</jenkins.baseline>
-    <jenkins.version>${jenkins.baseline}.3</jenkins.version>
+    <jenkins.baseline>2.452</jenkins.baseline>
+    <jenkins.version>${jenkins.baseline}.4</jenkins.version>
     <spotbugs.effort>Max</spotbugs.effort>
     <spotbugs.threshold>Low</spotbugs.threshold>
     <gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>
