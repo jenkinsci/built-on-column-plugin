@@ -1,0 +1,3 @@
+_extends: github:jenkinsci/.github:/.github/release-drafter.yml
+tag-template: built-on-column-$NEXT_MINOR_VERSION
+version-template: $MAJOR.$MINOR
