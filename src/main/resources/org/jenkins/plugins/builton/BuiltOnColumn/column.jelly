@@ -23,5 +23,17 @@ THE SOFTWARE.
 -->
 <?jelly escape-by-default='true'?>
 <j:jelly xmlns:j="jelly:core">
-  <td><a href="${rootURL}/${job.lastBuild.builtOn.searchUrl}" class="model-link">${job.lastBuild.builtOn.displayName}</a></td>
+  <td>
+    <j:forEach var="node" items="${it.getBuiltOnNodes(job)}" varStatus="loop">
+      <j:if test="${!loop.first}">, </j:if>
+      <j:choose>
+        <j:when test="${node.searchUrl != null}">
+          <a href="${rootURL}/${node.searchUrl}" class="model-link">${node.displayName}</a>
+        </j:when>
+        <j:otherwise>
+          <span>${node.displayName}</span>
+        </j:otherwise>
+      </j:choose>
+    </j:forEach>
+  </td>
 </j:jelly>
